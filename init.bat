@@ -23,7 +23,7 @@ copy .\template\assets\js\vendor\modernizr-2.6.2.min.js .\assets\js\vendor\moder
 
 echo "Removing stuff you don't want..."
 del /S /F /Q .git
-del /S /F /Q templates
+del /S /F /Q template
 del README.md
 del README_pt-br.md
 del init.sh
