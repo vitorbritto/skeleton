@@ -22,8 +22,8 @@ copy .\template\assets\js\vendor\jquery-1.9.1.min.js .\assets\js\vendor\jquery-1
 copy .\template\assets\js\vendor\modernizr-2.6.2.min.js .\assets\js\vendor\modernizr-2.6.2.min.js
 
 echo "Removing stuff you don't want..."
-del /S /F .git
-del /S /F templates
+del /S /F /Q .git
+del /S /F /Q templates
 del README.md
 del README_pt-br.md
 del init.sh
