@@ -1,27 +1,28 @@
 # Skeleton
 
-Boilerplate for a really simple project.
+Boilerplate para um projeto muito simples.
 
-## Getting Started
+## Começando
 
-To start a new project:
+Para iniciar um novo projeto:
 
 ```bash
-git clone git://github.com/vitorbritto/skeleton.git projectname
-cd projectname
+git clone git://github.com/vitorbritto/skeleton.git nomedoprojeto
+cd nomedoprojeto
 ./init.sh
 ```
 
-*Windows users can run the `init.bat` file on the command prompt. If you're using Cygwin or PowerShell, you can quietly run the `init.sh` file. :)*
+*Para quem utiliza Windows, execute o arquivo `init.bat` no seu Command Prompt (cmd). Caso utilize Cygwin ou PowerShell, você pode rodar o arquivo `init.sh` tranquilamente. :)*
 
-**Improving your Workflow**
 
-You can use Grunt to automate your tasks and improve your Workflow. To do that, simply execute `npm install` and then run one of the tasks bellow:
+**Melhorando o seu fluxo de trabalho**
 
-* `grunt`: will watch for changes on your files (Live Reload included).
-* `grunt build`: will minify, concat and lint your files.
+Você pode utilizar o Grunt para automatizar suas tarefas e melhorar o seu fluxo de trabalho. Para isso, basta executar `npm install` e então executar uma das tarefas abaixo:
 
-## License
+* `grunt`: vai observar as mudanças realizadas nos seus arquivos (Live Reload incluído).
+* `grunt build`: vai minificar, concatenar e validar seus arquivos.
+
+## Licença
 
 The MIT License
 
@@ -44,3 +45,5 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
+
+
