@@ -30,6 +30,4 @@ rm README_pt-br.md
 rm init.sh
 rm init.bat
 
-echo "/n"
-
 echo "Done! ✔"
