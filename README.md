@@ -1,5 +1,7 @@
 # Skeleton
 
+##### [Instruções em português](README_pt-br.md)
+
 Boilerplate for a really simple project.
 
 ## Getting Started
