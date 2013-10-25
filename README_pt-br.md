@@ -1,6 +1,6 @@
 # Skeleton
 
-Boilerplate para um projeto muito simples.
+Um boilerplate muito simples para novos projetos.
 
 ## Começando
 
