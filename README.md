@@ -23,6 +23,19 @@ You can use Grunt to automate your tasks and improve your Workflow. To do that, 
 * `grunt`: will watch for changes on your files (Live Reload included).
 * `grunt build`: will minify, concat and lint your files.
 
+**Legacy Support**
+
+If you want to support **HTML5** tags and **Media Queries** for Old Browsers (IE6-8) with *html5shiv* and *respondjs*, just place the conditional comment before the tag `</head>`.
+
+```html
+<!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6.2/html5shiv.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.3.0/respond.min.js"></script>
+<![endif]-->
+```
+
+> Modernizr already do that for you. This is just an alternative method.
+
 ## License
 
 The MIT License
