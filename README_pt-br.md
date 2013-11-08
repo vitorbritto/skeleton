@@ -24,12 +24,13 @@ Você pode utilizar o Grunt para automatizar suas tarefas e melhorar o seu fluxo
 
 **Suporte para navegadores antigos**
 
-Se você deseja dar suporte a tags **HTML5** e **Media Queries** para os browsers mais antigos (IE6-8) com *html5shiv* e *respondjs*, basta adicionar o comentário condicional antes da tag `</head>`.
+Se você deseja dar suporte a tags **HTML5**, **Media Queries** e **pseudo-seletores** para os browsers mais antigos (IE6-8) com *html5shiv* e *respondjs*, basta adicionar o comentário condicional antes da tag `</head>`.
 
 ```html
 <!--[if lt IE 9]>
     <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6.2/html5shiv.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.3.0/respond.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/selectivizr/1.0.2/selectivizr-min.js"></script>
 <![endif]-->
 ```
 
