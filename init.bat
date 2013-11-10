@@ -18,7 +18,7 @@ copy .\template\robots.txt .\robots.txt
 copy .\template\assets\css\style.css .\assets\css\style.css
 copy .\template\assets\css\normalize.css .\assets\css\normalize.css
 copy .\template\assets\js\main.js .\assets\js\main.js
-copy .\template\assets\js\vendor\jquery-1.9.1.min.js .\assets\js\vendor\jquery-1.9.1.min.js
+copy .\template\assets\js\vendor\jquery-1.10.2.min.js .\assets\js\vendor\jquery-1.10.2.min.js
 copy .\template\assets\js\vendor\modernizr-2.6.2.min.js .\assets\js\vendor\modernizr-2.6.2.min.js
 
 echo "Removing stuff you don't want..."
