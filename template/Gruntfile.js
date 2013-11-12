@@ -99,7 +99,7 @@ module.exports = function(grunt) {
 
     // Register tasks
     // --------------------------
-    grunt.registerTask( 'default', [ 'watch' ]);
+    grunt.registerTask( 'default', [ 'connect', 'watch' ]);
     grunt.registerTask( 'build', [ 'jshint', 'uglify', 'cssmin' ]);
 
 };
