@@ -19,8 +19,8 @@ cd nomedoprojeto
 
 Você pode utilizar o Grunt para automatizar suas tarefas e melhorar o seu fluxo de trabalho. Para isso, basta executar `npm install` e então executar uma das tarefas abaixo:
 
-* `grunt`: vai observar as mudanças realizadas nos seus arquivos (Live Reload incluído).
-* `grunt build`: vai minificar, concatenar e validar seus arquivos.
+* `grunt`: observa as mudanças realizadas nos arquivos (Live Reload incluído).
+* `grunt build`: minifica, concatena e valida arquivos.
 
 **Suporte para navegadores antigos**
 

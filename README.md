@@ -20,8 +20,8 @@ cd projectname
 
 You can use Grunt to automate your tasks and improve your Workflow. To do that, simply execute `npm install` and then run one of the tasks bellow:
 
-* `grunt`: will watch for changes on your files (Live Reload included).
-* `grunt build`: will minify, concat and lint your files.
+* `grunt`: watch for changes on files (Live Reload included).
+* `grunt build`: minify, concat and lint files.
 
 **Legacy Support**
 
