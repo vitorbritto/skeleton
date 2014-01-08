@@ -20,17 +20,15 @@ module.exports = function(grunt) {
         // Metadata
         pkg: grunt.file.readJSON('package.json'),
         banner:
-        '\n' +
-        '/*\n' +
-        ' * -------------------------------------------------------\n' +
-        ' * Project: <%= pkg.title %>\n' +
-        ' * Version: <%= pkg.version %>\n' +
-        ' * Author:  <%= pkg.author.name %> (<%= pkg.author.email %>)\n' +
-        ' *\n' +
-        ' * Copyright (c) <%= grunt.template.today(\'yyyy\') %> <%= pkg.author.name %>\n' +
-        ' * -------------------------------------------------------\n' +
-        ' */\n' +
-        '\n',
+        "/*" +
+        " * -------------------------------------------------------\n" +
+        " * Project: <%= pkg.title %>\n" +
+        " * Version: <%= pkg.version %>\n" +
+        " * Author:  <%= pkg.author.name %> (<%= pkg.author.email %>)\n" +
+        " *\n" +
+        " * Copyright (c) <%= grunt.template.today(\"yyyy\") %> <%= pkg.title %>\n" +
+        " * -------------------------------------------------------\n" +
+        " */\n",
 
         // Start Server
         connect: {
