@@ -12,5 +12,9 @@
   "repository": {
     "type": "git",
     "url": "git://github.com/username/repository.git"
-  }
+  },
+  "devDependencies": {
+    "gulp": "~3.4.0",
+    "gulp-util": "~2.2.12"
+   }
 }
