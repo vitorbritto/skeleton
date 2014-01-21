@@ -11,6 +11,7 @@ To start a new project:
 ```bash
 git clone git://github.com/vitorbritto/skeleton.git projectname
 cd projectname
+chmod +x init.sh
 ./init.sh
 ```
 
